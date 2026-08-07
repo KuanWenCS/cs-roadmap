@@ -1,5 +1,3 @@
-# Copy Linked List with Random Pointer
-
 # You are given the head of a linked list of length n. Unlike a singly linked list, each node contains an additional pointer random, which may point to any node in the list, or null.
 
 # Create a deep copy of the list.

@@ -1,5 +1,3 @@
-# Design Singly Linked List
-
 # Design a Singly Linked List class.
 
 # Your LinkedList class should support the following operations:

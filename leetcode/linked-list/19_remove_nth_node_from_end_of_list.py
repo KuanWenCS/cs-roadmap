@@ -10,7 +10,7 @@
 # 1 <= n <= sz
 
 from typing import Optional
-import Util
+import util
 
 
 # Definition for singly-linked list.
@@ -68,10 +68,10 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
 
-    Util.print_list_node(sol.removeNthFromEnd(Util.build_list([5]), 1))
+    util.print_list_node(sol.removeNthFromEnd(util.build_list([5]), 1))
     print("--------------------------------")
-    Util.print_list_node(sol.removeNthFromEnd(Util.build_list([1, 2]), 1))
+    util.print_list_node(sol.removeNthFromEnd(util.build_list([1, 2]), 1))
     print("--------------------------------")
-    Util.print_list_node(sol.removeNthFromEnd(Util.build_list([1, 2]), 2))
+    util.print_list_node(sol.removeNthFromEnd(util.build_list([1, 2]), 2))
     print("--------------------------------")
-    Util.print_list_node(sol.removeNthFromEnd(Util.build_list([1, 2, 3, 4]), 2))
+    util.print_list_node(sol.removeNthFromEnd(util.build_list([1, 2, 3, 4]), 2))

@@ -8,7 +8,7 @@
 # -1000 <= Node.val <= 1000
 
 from typing import Optional
-import Util
+import util
 
 
 # Definition for singly-linked list.
@@ -55,5 +55,5 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
 
-    Util.print_list_node(sol.reverseList(Util.build_list([])))
-    Util.print_list_node(sol.reverseList(Util.build_list([0, 1, 2, 3])))
+    util.print_list_node(sol.reverseList(util.build_list([])))
+    util.print_list_node(sol.reverseList(util.build_list([0, 1, 2, 3])))

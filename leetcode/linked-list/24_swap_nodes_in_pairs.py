@@ -6,7 +6,7 @@
 # 0 <= Node.val <= 100
 
 from typing import Optional
-import Util
+import util
 
 
 # Definition for singly-linked list.
@@ -41,10 +41,10 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
 
-    Util.print_list_node(sol.swapPairs(Util.build_list([])))
+    util.print_list_node(sol.swapPairs(util.build_list([])))
     print("--------------------------------")
-    Util.print_list_node(sol.swapPairs(Util.build_list([1])))
+    util.print_list_node(sol.swapPairs(util.build_list([1])))
     print("--------------------------------")
-    Util.print_list_node(sol.swapPairs(Util.build_list([1, 2, 3, 4])))
+    util.print_list_node(sol.swapPairs(util.build_list([1, 2, 3, 4])))
     print("--------------------------------")
-    Util.print_list_node(sol.swapPairs(Util.build_list([1, 2, 3, 4, 5])))
+    util.print_list_node(sol.swapPairs(util.build_list([1, 2, 3, 4, 5])))

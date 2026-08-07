@@ -12,7 +12,7 @@
 # -100 <= Node.val <= 100
 
 from typing import Optional
-import Util
+import util
 
 
 # Definition for singly-linked list.
@@ -74,12 +74,12 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
 
-    Util.print_list_node(sol.mergeTwoLists(Util.build_list([]), Util.build_list([])))
+    util.print_list_node(sol.mergeTwoLists(util.build_list([]), util.build_list([])))
     print()
-    Util.print_list_node(
-        sol.mergeTwoLists(Util.build_list([]), Util.build_list([1, 2]))
+    util.print_list_node(
+        sol.mergeTwoLists(util.build_list([]), util.build_list([1, 2]))
     )
     print()
-    Util.print_list_node(
-        sol.mergeTwoLists(Util.build_list([1, 2, 4]), Util.build_list([1, 3, 5]))
+    util.print_list_node(
+        sol.mergeTwoLists(util.build_list([1, 2, 4]), util.build_list([1, 3, 5]))
     )

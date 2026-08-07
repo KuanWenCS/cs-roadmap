@@ -1,5 +1,3 @@
-# Linked List Cycle Detection
-
 # Given the beginning of a linked list head, return true if there is a cycle in the linked list. Otherwise, return false.
 
 # There is a cycle in a linked list if at least one node in the list can be visited again by following the next pointer.

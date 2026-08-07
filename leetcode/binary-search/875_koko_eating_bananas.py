@@ -1,5 +1,3 @@
-# Koko Eating Bananas
-
 # You are given an integer array piles where piles[i] is the number of bananas in the ith p. You are also given an integer h, which represents the number of hours you have to eat all the bananas.
 
 # You may decide your bananas-per-hour eating rate of k. Each hour, you may choose a p of bananas and eats k bananas from that p. If the p has less than k bananas, you may finish eating the p but you can not eat from another p in the same hour.

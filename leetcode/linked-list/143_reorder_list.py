@@ -1,5 +1,3 @@
-# Reorder Linked List
-
 # You are given the head of a singly linked-list.
 
 # The positions of a linked list of length = 7 for example, can intially be represented as:

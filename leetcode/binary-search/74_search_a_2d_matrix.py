@@ -21,15 +21,12 @@ from typing import List
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         row = self.findCol(matrix, target)
-        print("\npossible row: ", matrix[row])
         return self.findTarget(matrix[row], target)
 
     def findCol(self, matrix: List[List[int]], target: int) -> int:
         l, r = 0, len(matrix) - 1
         while l < r:
             mid = (l + r + 1) // 2
-            print("matrix[mid][0]: ", matrix[mid][0])
-            print("l, r: ", l, r)
             if matrix[mid][0] <= target:
                 l = mid
             else:
@@ -40,8 +37,6 @@ class Solution:
         l, r = 0, len(row) - 1
         while l <= r:
             mid = (l + r) // 2
-            print("l, r: ", l, r)
-            print("row[mid]: ", row[mid])
             if row[mid] == target:
                 return True
             elif row[mid] > target:

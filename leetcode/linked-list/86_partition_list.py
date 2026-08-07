@@ -9,7 +9,7 @@
 # -200 <= x <= 200
 
 from typing import Optional
-import Util
+import util
 
 
 # Definition for singly-linked list.
@@ -65,12 +65,12 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
 
-    # Util.print_list_node(sol.partition(Util.build_list([]), 0))
+    # util.print_list_node(sol.partition(util.build_list([]), 0))
     # print("--------------------------------")
-    # Util.print_list_node(sol.partition(Util.build_list([1]), 2))
+    # util.print_list_node(sol.partition(util.build_list([1]), 2))
     # print("--------------------------------")
-    # Util.print_list_node(sol.partition(Util.build_list([2, 1]), 2))
+    # util.print_list_node(sol.partition(util.build_list([2, 1]), 2))
     # print("--------------------------------")
-    Util.print_list_node(sol.partition(Util.build_list([1, 4, 3, 2, 5, 2]), 3))
+    util.print_list_node(sol.partition(util.build_list([1, 4, 3, 2, 5, 2]), 3))
     print("--------------------------------")
-    Util.print_list_node(sol.partition(Util.build_list([1, 4, 3, 2, 5, 6]), 3))
+    util.print_list_node(sol.partition(util.build_list([1, 4, 3, 2, 5, 6]), 3))

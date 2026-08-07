@@ -16,7 +16,7 @@
 
 
 from typing import Optional
-import Util
+import util
 
 
 # Definition for singly-linked list.
@@ -51,7 +51,7 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
 
-    print(sol.hasCycle(Util.build_list([])))
-    print(sol.hasCycle(Util.build_list([1])))
-    print(sol.hasCycle(Util.build_list([1, 2, 3, 4])))
-    print(sol.hasCycle(Util.build_cycle([3, 2, 0, -4], 1)))
+    print(sol.hasCycle(util.build_list([])))
+    print(sol.hasCycle(util.build_list([1])))
+    print(sol.hasCycle(util.build_list([1, 2, 3, 4])))
+    print(sol.hasCycle(util.build_cycle([3, 2, 0, -4], 1)))

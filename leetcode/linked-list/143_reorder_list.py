@@ -22,7 +22,7 @@
 # 1 <= Node.val <= 1000
 
 from typing import List, Optional
-import Util
+import util
 
 
 # Definition for singly-linked list.
@@ -72,8 +72,8 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
 
-    Util.print_list_node(sol.reorderList(Util.build_list([])))
+    util.print_list_node(sol.reorderList(util.build_list([])))
     print("--------------------------------")
-    Util.print_list_node(sol.split(Util.build_list([1, 2, 3, 4])))
+    util.print_list_node(sol.split(util.build_list([1, 2, 3, 4])))
     print("--------------------------------")
-    Util.print_list_node(sol.split(Util.build_list([1, 2, 3, 4, 5])))
+    util.print_list_node(sol.split(util.build_list([1, 2, 3, 4, 5])))

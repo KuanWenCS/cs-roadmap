@@ -10,7 +10,7 @@
 # 0 <= Node.val <= 9
 
 from typing import Optional
-import Util
+import util
 
 
 # Definition for singly-linked list.
@@ -59,10 +59,10 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
 
-    # print(sol.isPalindrome(Util.build_list([1])))
+    # print(sol.isPalindrome(util.build_list([1])))
     # print("--------------------------------")
-    print(sol.isPalindrome(Util.build_list([2, 2])))
+    print(sol.isPalindrome(util.build_list([2, 2])))
     print("--------------------------------")
-    print(sol.isPalindrome(Util.build_list([1, 2, 3, 2, 1])))
+    print(sol.isPalindrome(util.build_list([1, 2, 3, 2, 1])))
     print("--------------------------------")
-    print(sol.isPalindrome(Util.build_list([2, 1])))
+    print(sol.isPalindrome(util.build_list([2, 1])))

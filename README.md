@@ -33,9 +33,11 @@ Implement machine learning fundamentals from scratch, from mathematical foundati
 
 Topics include:
 
-- Mathematical Foundations
-- Neural Networks
-- PyTorch Implementations
+- Mathematical Foundations ✅
+- Neural Networks ✅
+- PyTorch Implementations ✅
+- Training ✅
+- NLP ✅
 - Attention & Transformers
 - Build GPT from Scratch
 

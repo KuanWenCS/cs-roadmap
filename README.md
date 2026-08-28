@@ -8,13 +8,13 @@ This repository documents my journey through computer science, from fundamental 
 
 This repository is organized into four main sections:
 
-### 📦 Data Structures
-
-Implement classic data structures from scratch with a focus on correctness, readability, and complexity analysis.
-
 ### 🧠 Algorithms
 
 Implement fundamental algorithms and common interview patterns with clean, well-documented solutions.
+
+### 📦 Data Structures
+
+Implement classic data structures from scratch with a focus on correctness, readability, and complexity analysis.
 
 ### 💻 LeetCode
 
@@ -27,7 +27,7 @@ Each solution includes:
 - Time & space complexity analysis
 - Key takeaways and lessons learned
 
-### Machine Learning
+### Machine Learning (AI)
 
 Implement machine learning fundamentals from scratch, from mathematical foundations to building a GPT model.
 
@@ -38,7 +38,7 @@ Topics include:
 - PyTorch Implementations ✅
 - Training ✅
 - NLP ✅
-- Attention & Transformers
+- Attention & Transformers ✅
 - Build GPT from Scratch
 
 ## Roadmap
